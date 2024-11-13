@@ -1,0 +1,148 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Team Styling */
+.team {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.team ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.team ul li {
+    margin: 5px 0;
+}
+
+.team ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.team ul li a:hover {
+    color: #007bff;
+}
+
+/* Specific Team Colors */
+.chennai {
+    background-color: #f7c64e;
+}
+
+.chennai h3 {
+    color: #f7c64e;
+}
+
+.delhi {
+    background-color: #1d72b8;
+}
+
+.delhi h3 {
+    color: #1d72b8;
+}
+
+.gujarat {
+    background-color: #4a9c2f;
+}
+
+.gujarat h3 {
+    color: #4a9c2f;
+}
+
+.kolkata {
+    background-color: #512d6d;
+}
+
+.kolkata h3 {
+    color: #512d6d;
+}
+
+.lucknow {
+    background-color: #44b3b9;
+}
+
+.lucknow h3 {
+    color: #44b3b9;
+}
+
+.mumbai {
+    background-color: #0066cc;
+}
+
+.mumbai h3 {
+    color: #0066cc;
+}
+
+.rajasthan {
+    background-color: #f6d02f;
+}
+
+.rajasthan h3 {
+    color: #f6d02f;
+}
+
+.bengaluru {
+    background-color: #c72c41;
+}
+
+.bengaluru h3 {
+    color: #c72c41;
+}
+
+/* New teams */
+.hyderabad {
+    background-color: #ff5c00;
+}
+
+.hyderabad h3 {
+    color: #ff5c00;
+}
+
+.punjab {
+    background-color: #d9003d;
+}
+
+.punjab h3 {
+    color: #d9003d;
+}
